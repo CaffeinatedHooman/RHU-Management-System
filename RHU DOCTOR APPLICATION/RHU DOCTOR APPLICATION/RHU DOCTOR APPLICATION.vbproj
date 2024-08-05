@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F820347-4E8D-407F-9089-CE6F361FBD02}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>RHU_DOCTOR_APPLICATION.My.MyApplication</StartupObject>
+    <RootNamespace>RHU_DOCTOR_APPLICATION</RootNamespace>
+    <AssemblyName>RHU DOCTOR APPLICATION</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>RHU DOCTOR APPLICATION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>RHU DOCTOR APPLICATION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>doc.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.2.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.21.9.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\NEW MAC DEFENSE\RHU ADMIN APPLICATION\RHU ADMIN APPLICATION\bin\Debug\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.3.5\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.3.5\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.2.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.2.0\lib\net48\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.4.4.1\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.7.0.2\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="ZstdSharp, Version=0.7.1.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZstdSharp.Port.0.7.1\lib\net461\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic1Login.Designer.vb">
+      <DependentUpon>Clinic1Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic1Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic2Login.Designer.vb">
+      <DependentUpon>Clinic2Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic2Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic3Login.Designer.vb">
+      <DependentUpon>Clinic3Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic3Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic4Login.Designer.vb">
+      <DependentUpon>Clinic4Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic4Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic5Login.Designer.vb">
+      <DependentUpon>Clinic5Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic5Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic6Login.Designer.vb">
+      <DependentUpon>Clinic6Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicLogIn\Clinic6Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicModuleSetup\ClinicSetup1M.vb" />
+    <Compile Include="ClinicLogForm\ClinicModuleSetup\ClinicSetup2M.vb" />
+    <Compile Include="ClinicLogForm\ClinicModuleSetup\ClinicSetup3M.vb" />
+    <Compile Include="ClinicLogForm\ClinicModuleSetup\ClinicSetup4M.vb" />
+    <Compile Include="ClinicLogForm\ClinicModuleSetup\ClinicSetup5M.vb" />
+    <Compile Include="ClinicLogForm\ClinicModuleSetup\ClinicSetup6M.vb" />
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup1.Designer.vb">
+      <DependentUpon>ClinicSetup1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup2.Designer.vb">
+      <DependentUpon>ClinicSetup2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup3.Designer.vb">
+      <DependentUpon>ClinicSetup3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup4.Designer.vb">
+      <DependentUpon>ClinicSetup4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup5.Designer.vb">
+      <DependentUpon>ClinicSetup5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup6.Designer.vb">
+      <DependentUpon>ClinicSetup6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicLogForm\ClinicSetupForms\ClinicSetup6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor_Folder\ClinicNameSetup.Designer.vb">
+      <DependentUpon>ClinicNameSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor_Folder\ClinicNameSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor_Folder\DoctorsPanel.Designer.vb">
+      <DependentUpon>DoctorsPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor_Folder\DoctorsPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GENERAL CLINIC\GeneralLogin\DoctorLoginForm.Designer.vb">
+      <DependentUpon>DoctorLoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GENERAL CLINIC\GeneralLogin\DoctorLoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GENERAL CLINIC\GeneralLogin\DoctorLogInModule.vb" />
+    <Compile Include="GENERAL CLINIC\GeneralDoctorPanel.Designer.vb">
+      <DependentUpon>GeneralDoctorPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GENERAL CLINIC\GeneralDoctorPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GENERAL CLINIC\GeneralLogin\OnCallModule.vb" />
+    <Compile Include="GENERAL CLINIC\PatientHistory\PatientHistories.vb" />
+    <Compile Include="GENERAL CLINIC\PatientHistory\PatientRecords.Designer.vb">
+      <DependentUpon>PatientRecords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GENERAL CLINIC\PatientHistory\PatientRecords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIV\DocumentsHIV\DocumentsPanelHIV.Designer.vb">
+      <DependentUpon>DocumentsPanelHIV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HIV\DocumentsHIV\DocumentsPanelHIV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIV\DocumentsHIV\DownloadFilesHAS.Designer.vb">
+      <DependentUpon>DownloadFilesHAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HIV\DocumentsHIV\DownloadFilesHAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIV\DocumentsHIV\ExportPatientRecordHAS.Designer.vb">
+      <DependentUpon>ExportPatientRecordHAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HIV\DocumentsHIV\ExportPatientRecordHAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIV\DocumentsHIV\PatientRecordFilesHAS.Designer.vb">
+      <DependentUpon>PatientRecordFilesHAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HIV\DocumentsHIV\PatientRecordFilesHAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIV\DocumentsHIV\UploadRecordHAS.Designer.vb">
+      <DependentUpon>UploadRecordHAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HIV\DocumentsHIV\UploadRecordHAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIV\HIV-RECORDS\HAS_CLINIC.Designer.vb">
+      <DependentUpon>HAS_CLINIC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HIV\HIV-RECORDS\HAS_CLINIC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIV\HIV-RECORDS\HAS_Oncall.Designer.vb">
+      <DependentUpon>HAS_Oncall.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HIV\HIV-RECORDS\HAS_Oncall.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIV\HIV-RECORDS\HAS_PatientList.Designer.vb">
+      <DependentUpon>HAS_PatientList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HIV\HIV-RECORDS\HAS_PatientList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIV\HIV-RECORDS\HAS_RECORDS.Designer.vb">
+      <DependentUpon>HAS_RECORDS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HIV\HIV-RECORDS\HAS_RECORDS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIV\HIV-SETUP\HAS_ClinicSetup.Designer.vb">
+      <DependentUpon>HAS_ClinicSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HIV\HIV-SETUP\HAS_ClinicSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HIV\HIV-SETUP\HIV-Module.vb" />
+    <Compile Include="HIV\HIV-SETUP\HIVLoginsetup.Designer.vb">
+      <DependentUpon>HIVLoginsetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HIV\HIV-SETUP\HIVLoginsetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILLNESS\IllnessRecord.Designer.vb">
+      <DependentUpon>IllnessRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ILLNESS\IllnessRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\Documents\DocumentsPanelMH.Designer.vb">
+      <DependentUpon>DocumentsPanelMH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\Documents\DocumentsPanelMH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\Documents\DownloadFilesMH.Designer.vb">
+      <DependentUpon>DownloadFilesMH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\Documents\DownloadFilesMH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\Documents\ExportPatientRecordMH.Designer.vb">
+      <DependentUpon>ExportPatientRecordMH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\Documents\ExportPatientRecordMH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\Documents\UploadRecordMH.Designer.vb">
+      <DependentUpon>UploadRecordMH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\Documents\UploadRecordMH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\MotherHoodList.Designer.vb">
+      <DependentUpon>MotherHoodList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\MotherHoodList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\MotherHoodModule.vb" />
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\MotherHoodRecords.Designer.vb">
+      <DependentUpon>MotherHoodRecords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\MotherHoodRecords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\MotherHoodClinic.Designer.vb">
+      <DependentUpon>MotherHoodClinic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\MotherHoodClinic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\Documents\PatientRecordFilesMH.Designer.vb">
+      <DependentUpon>PatientRecordFilesMH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\Documents\PatientRecordFilesMH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodSetup\MotherHoodLogin.Designer.vb">
+      <DependentUpon>MotherHoodLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodSetup\MotherHoodLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\MotherHoodOncall.Designer.vb">
+      <DependentUpon>MotherHoodOncall.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodRecords\MotherHoodOncall.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodSetup\MotherHoodSetup.Designer.vb">
+      <DependentUpon>MotherHoodSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MOTHERHOOD\MotherHoodSetup\MotherHoodSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GENERAL CLINIC\GeneralClinic.Designer.vb">
+      <DependentUpon>GeneralClinic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GENERAL CLINIC\GeneralClinic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestRecords\DocumentsPanel.Designer.vb">
+      <DependentUpon>DocumentsPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RequestRecords\DocumentsPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestRecords\DownloadFiles.Designer.vb">
+      <DependentUpon>DownloadFiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RequestRecords\DownloadFiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestRecords\ExportPatientRecord.Designer.vb">
+      <DependentUpon>ExportPatientRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RequestRecords\ExportPatientRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestRecords\recordgridpatienttoexel.Designer.vb">
+      <DependentUpon>recordgridpatienttoexel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RequestRecords\recordgridpatienttoexel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestRecords\PatientRecordFiles.Designer.vb">
+      <DependentUpon>PatientRecordFiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RequestRecords\PatientRecordFiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestRecords\REQLogin.Designer.vb">
+      <DependentUpon>REQLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RequestRecords\REQLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestRecords\RequestAndSubmit.vb" />
+    <Compile Include="RequestRecords\RequestRecieved.vb" />
+    <Compile Include="RequestRecords\UploadRecord.Designer.vb">
+      <DependentUpon>UploadRecord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RequestRecords\UploadRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLconnection.vb" />
+    <Compile Include="TB\DocumentsTB\DocumentsPanelTB.Designer.vb">
+      <DependentUpon>DocumentsPanelTB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TB\DocumentsTB\DocumentsPanelTB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TB\DocumentsTB\DownloadFilesTB.Designer.vb">
+      <DependentUpon>DownloadFilesTB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TB\DocumentsTB\DownloadFilesTB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TB\DocumentsTB\ExportPatientRecordTB.Designer.vb">
+      <DependentUpon>ExportPatientRecordTB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TB\DocumentsTB\ExportPatientRecordTB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TB\DocumentsTB\PatientRecordFilesTB.Designer.vb">
+      <DependentUpon>PatientRecordFilesTB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TB\DocumentsTB\PatientRecordFilesTB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TB\DocumentsTB\UploadRecordTB.Designer.vb">
+      <DependentUpon>UploadRecordTB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TB\DocumentsTB\UploadRecordTB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TB\TB SETUP\TB_Module.vb" />
+    <Compile Include="TB\TB_CLINIC.Designer.vb">
+      <DependentUpon>TB_CLINIC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TB\TB_CLINIC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TB\TB SETUP\TB_LoginForm.Designer.vb">
+      <DependentUpon>TB_LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TB\TB SETUP\TB_LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TB\TB SETUP\TB_SETUP.Designer.vb">
+      <DependentUpon>TB_SETUP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TB\TB SETUP\TB_SETUP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TB\TB_PATIENT\TB-RECORDS.Designer.vb">
+      <DependentUpon>TB-RECORDS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TB\TB_PATIENT\TB-RECORDS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TB\TB_PATIENT\TBList.Designer.vb">
+      <DependentUpon>TBList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TB\TB_PATIENT\TBList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TB\TB_PATIENT\TB_ONCALL.Designer.vb">
+      <DependentUpon>TB_ONCALL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TB\TB_PATIENT\TB_ONCALL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZImageView\ImageViewerForm.Designer.vb">
+      <DependentUpon>ImageViewerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZImageView\ImageViewerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ClinicLogForm\ClinicLogIn\Clinic1Login.resx">
+      <DependentUpon>Clinic1Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicLogForm\ClinicLogIn\Clinic2Login.resx">
+      <DependentUpon>Clinic2Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicLogForm\ClinicLogIn\Clinic3Login.resx">
+      <DependentUpon>Clinic3Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicLogForm\ClinicLogIn\Clinic4Login.resx">
+      <DependentUpon>Clinic4Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicLogForm\ClinicLogIn\Clinic5Login.resx">
+      <DependentUpon>Clinic5Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicLogForm\ClinicLogIn\Clinic6Login.resx">
+      <DependentUpon>Clinic6Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicLogForm\ClinicSetupForms\ClinicSetup1.resx">
+      <DependentUpon>ClinicSetup1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicLogForm\ClinicSetupForms\ClinicSetup2.resx">
+      <DependentUpon>ClinicSetup2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicLogForm\ClinicSetupForms\ClinicSetup3.resx">
+      <DependentUpon>ClinicSetup3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicLogForm\ClinicSetupForms\ClinicSetup4.resx">
+      <DependentUpon>ClinicSetup4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicLogForm\ClinicSetupForms\ClinicSetup5.resx">
+      <DependentUpon>ClinicSetup5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicLogForm\ClinicSetupForms\ClinicSetup6.resx">
+      <DependentUpon>ClinicSetup6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor_Folder\ClinicNameSetup.resx">
+      <DependentUpon>ClinicNameSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor_Folder\DoctorsPanel.resx">
+      <DependentUpon>DoctorsPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GENERAL CLINIC\GeneralLogin\DoctorLoginForm.resx">
+      <DependentUpon>DoctorLoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GENERAL CLINIC\GeneralDoctorPanel.resx">
+      <DependentUpon>GeneralDoctorPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GENERAL CLINIC\PatientHistory\PatientRecords.resx">
+      <DependentUpon>PatientRecords.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIV\DocumentsHIV\DocumentsPanelHIV.resx">
+      <DependentUpon>DocumentsPanelHIV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIV\DocumentsHIV\DownloadFilesHAS.resx">
+      <DependentUpon>DownloadFilesHAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIV\DocumentsHIV\ExportPatientRecordHAS.resx">
+      <DependentUpon>ExportPatientRecordHAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIV\DocumentsHIV\PatientRecordFilesHAS.resx">
+      <DependentUpon>PatientRecordFilesHAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIV\DocumentsHIV\UploadRecordHAS.resx">
+      <DependentUpon>UploadRecordHAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIV\HIV-RECORDS\HAS_CLINIC.resx">
+      <DependentUpon>HAS_CLINIC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIV\HIV-RECORDS\HAS_Oncall.resx">
+      <DependentUpon>HAS_Oncall.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIV\HIV-RECORDS\HAS_PatientList.resx">
+      <DependentUpon>HAS_PatientList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIV\HIV-RECORDS\HAS_RECORDS.resx">
+      <DependentUpon>HAS_RECORDS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIV\HIV-SETUP\HAS_ClinicSetup.resx">
+      <DependentUpon>HAS_ClinicSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIV\HIV-SETUP\HIVLoginsetup.resx">
+      <DependentUpon>HIVLoginsetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILLNESS\IllnessRecord.resx">
+      <DependentUpon>IllnessRecord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOTHERHOOD\MotherHoodRecords\Documents\DocumentsPanelMH.resx">
+      <DependentUpon>DocumentsPanelMH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOTHERHOOD\MotherHoodRecords\Documents\DownloadFilesMH.resx">
+      <DependentUpon>DownloadFilesMH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOTHERHOOD\MotherHoodRecords\Documents\ExportPatientRecordMH.resx">
+      <DependentUpon>ExportPatientRecordMH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOTHERHOOD\MotherHoodRecords\Documents\UploadRecordMH.resx">
+      <DependentUpon>UploadRecordMH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOTHERHOOD\MotherHoodRecords\MotherHoodList.resx">
+      <DependentUpon>MotherHoodList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOTHERHOOD\MotherHoodRecords\MotherHoodRecords.resx">
+      <DependentUpon>MotherHoodRecords.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOTHERHOOD\MotherHoodRecords\MotherHoodClinic.resx">
+      <DependentUpon>MotherHoodClinic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOTHERHOOD\MotherHoodRecords\Documents\PatientRecordFilesMH.resx">
+      <DependentUpon>PatientRecordFilesMH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOTHERHOOD\MotherHoodSetup\MotherHoodLogin.resx">
+      <DependentUpon>MotherHoodLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOTHERHOOD\MotherHoodRecords\MotherHoodOncall.resx">
+      <DependentUpon>MotherHoodOncall.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOTHERHOOD\MotherHoodSetup\MotherHoodSetup.resx">
+      <DependentUpon>MotherHoodSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GENERAL CLINIC\GeneralClinic.resx">
+      <DependentUpon>GeneralClinic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestRecords\DocumentsPanel.resx">
+      <DependentUpon>DocumentsPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestRecords\DownloadFiles.resx">
+      <DependentUpon>DownloadFiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestRecords\ExportPatientRecord.resx">
+      <DependentUpon>ExportPatientRecord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestRecords\recordgridpatienttoexel.resx">
+      <DependentUpon>recordgridpatienttoexel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestRecords\PatientRecordFiles.resx">
+      <DependentUpon>PatientRecordFiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestRecords\REQLogin.resx">
+      <DependentUpon>REQLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestRecords\UploadRecord.resx">
+      <DependentUpon>UploadRecord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB\DocumentsTB\DocumentsPanelTB.resx">
+      <DependentUpon>DocumentsPanelTB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB\DocumentsTB\DownloadFilesTB.resx">
+      <DependentUpon>DownloadFilesTB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB\DocumentsTB\ExportPatientRecordTB.resx">
+      <DependentUpon>ExportPatientRecordTB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB\DocumentsTB\PatientRecordFilesTB.resx">
+      <DependentUpon>PatientRecordFilesTB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB\DocumentsTB\UploadRecordTB.resx">
+      <DependentUpon>UploadRecordTB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB\TB SETUP\TB_LoginForm.resx">
+      <DependentUpon>TB_LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB\TB SETUP\TB_SETUP.resx">
+      <DependentUpon>TB_SETUP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB\TB_CLINIC.resx">
+      <DependentUpon>TB_CLINIC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB\TB_PATIENT\TB-RECORDS.resx">
+      <DependentUpon>TB-RECORDS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB\TB_PATIENT\TBList.resx">
+      <DependentUpon>TBList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB\TB_PATIENT\TB_ONCALL.resx">
+      <DependentUpon>TB_ONCALL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZImageView\ImageViewerForm.resx">
+      <DependentUpon>ImageViewerForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoCYN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\824_generated.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="doc.ico" />
+    <None Include="Resources\ask_question_query_demand_interrogate_icon_146778.png" />
+    <None Include="Resources\critical.png" />
+    <None Include="Resources\folder%281%29.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\request.png" />
+    <None Include="Resources\documents.png" />
+    <None Include="Resources\28414.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardiogram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crowd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7283494.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checklist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

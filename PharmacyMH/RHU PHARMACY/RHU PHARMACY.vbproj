@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F8FB9B2-34A6-4B00-850F-4CF252D1D606}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>RHU_PHARMACY.My.MyApplication</StartupObject>
+    <RootNamespace>RHU_PHARMACY</RootNamespace>
+    <AssemblyName>RHU PHARMACY</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>RHU PHARMACY.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>RHU PHARMACY.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PHARMACY-MH.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\NEW MAC DEFENSE\RHU ADMIN APPLICATION\RHU ADMIN APPLICATION\bin\Debug\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\NEW MAC DEFENSE\RHU ADMIN APPLICATION\RHU ADMIN APPLICATION\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PHARMACY\LOGIN\LoginModule.vb" />
+    <Compile Include="PHARMACY\LOGIN\PRC_Login.Designer.vb">
+      <DependentUpon>PRC_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PHARMACY\LOGIN\PRC_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PHARMACY\Medicine\INVENTORY.Designer.vb">
+      <DependentUpon>INVENTORY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PHARMACY\Medicine\INVENTORY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PHARMACY\Medicine\MedicineInfo.Designer.vb">
+      <DependentUpon>MedicineInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PHARMACY\Medicine\MedicineInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PHARMACY\Medicine\NewMedicine.Designer.vb">
+      <DependentUpon>NewMedicine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PHARMACY\Medicine\NewMedicine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PHARMACY\Module\MedicineModule.vb" />
+    <Compile Include="PHARMACY\PatientMeds\DistributionMedicine.Designer.vb">
+      <DependentUpon>DistributionMedicine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PHARMACY\PatientMeds\DistributionMedicine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PHARMACY\PharmacyPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PHARMACY\PharmacyPanel.Designer.vb">
+      <DependentUpon>PharmacyPanel.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PHARMACY\REPORTS\ReportsMeds.Designer.vb">
+      <DependentUpon>ReportsMeds.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PHARMACY\REPORTS\ReportsMeds.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLconnection.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PHARMACY\LOGIN\PRC_Login.resx">
+      <DependentUpon>PRC_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHARMACY\Medicine\INVENTORY.resx">
+      <DependentUpon>INVENTORY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHARMACY\Medicine\MedicineInfo.resx">
+      <DependentUpon>MedicineInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHARMACY\Medicine\NewMedicine.resx">
+      <DependentUpon>NewMedicine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHARMACY\PatientMeds\DistributionMedicine.resx">
+      <DependentUpon>DistributionMedicine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHARMACY\PharmacyPanel.resx">
+      <DependentUpon>PharmacyPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHARMACY\REPORTS\ReportsMeds.resx">
+      <DependentUpon>ReportsMeds.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\inventory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loupe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vaccine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2010.i121.044_isometric_gastroenterology_set-01-03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pharmacist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PHARMACY-MH.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

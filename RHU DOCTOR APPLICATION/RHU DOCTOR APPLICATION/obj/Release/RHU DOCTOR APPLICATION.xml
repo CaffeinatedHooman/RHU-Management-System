@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RHU DOCTOR APPLICATION
+</name>
+</assembly>
+<members>
+<member name="T:RHU_DOCTOR_APPLICATION.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources._28414">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources._7283494">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources._824_generated">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.ask_question_query_demand_interrogate_icon_146778">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.cardiogram">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.checklist">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.critical">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.crowd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.doctor_1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.documents">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.download">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.folder_1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.logoCYN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RHU_DOCTOR_APPLICATION.My.Resources.Resources.request">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

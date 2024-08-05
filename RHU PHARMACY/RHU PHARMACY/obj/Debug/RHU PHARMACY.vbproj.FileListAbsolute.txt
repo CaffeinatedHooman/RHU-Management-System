@@ -1,0 +1,42 @@
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\bin\Debug\RHU PHARMACY.exe.config
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\bin\Debug\RHU PHARMACY.exe
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\bin\Debug\RHU PHARMACY.pdb
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\bin\Debug\RHU PHARMACY.xml
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.vbproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.Resources.resources
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.exe
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.xml
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.pdb
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\bin\Debug\Guna.UI2.dll
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.vbproj.CopyComplete
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.INVENTORY.resources
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.NewMedicine.resources
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.MedicineInfo.resources
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.DistributionMedicine.resources
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.ReportsMeds.resources
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.PRC_Login.resources
+C:\Users\Administrator\Desktop\FINAL DEFENSE\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.PharmacyPanel.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Debug\RHU PHARMACY.exe.config
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Debug\RHU PHARMACY.exe
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Debug\RHU PHARMACY.pdb
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Debug\RHU PHARMACY.xml
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Debug\Guna.UI2.dll
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.vbproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.PRC_Login.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.INVENTORY.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.MedicineInfo.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.NewMedicine.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.DistributionMedicine.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.PharmacyPanel.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.Resources.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU_PHARMACY.ReportsMeds.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.vbproj.CopyComplete
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.exe
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.xml
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Debug\RHU PHARMACY.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RHU DOCTOR APPLICATION", "RHU DOCTOR APPLICATION\RHU DOCTOR APPLICATION.vbproj", "{6F820347-4E8D-407F-9089-CE6F361FBD02}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DOCTOR 1.2 APP", "DOCTOR 1.2 APP\DOCTOR 1.2 APP.vdproj", "{0A9FFC4A-4459-4BD3-818A-3DD2B949A21C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F820347-4E8D-407F-9089-CE6F361FBD02}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{6F820347-4E8D-407F-9089-CE6F361FBD02}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{6F820347-4E8D-407F-9089-CE6F361FBD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F820347-4E8D-407F-9089-CE6F361FBD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9FFC4A-4459-4BD3-818A-3DD2B949A21C}.Debug|Any CPU.ActiveCfg = Release
+		{0A9FFC4A-4459-4BD3-818A-3DD2B949A21C}.Debug|Any CPU.Build.0 = Release
+		{0A9FFC4A-4459-4BD3-818A-3DD2B949A21C}.Release|Any CPU.ActiveCfg = Release
+		{0A9FFC4A-4459-4BD3-818A-3DD2B949A21C}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B9D8A7E-142D-4FFD-A284-C241F32782B4}
+	EndGlobalSection
+EndGlobal

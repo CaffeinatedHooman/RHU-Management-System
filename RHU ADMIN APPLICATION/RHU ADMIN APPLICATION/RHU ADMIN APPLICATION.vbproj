@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8EC8742-060C-49CD-ADE5-CD46632E4B5C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>RHU_ADMIN_APPLICATION.My.MyApplication</StartupObject>
+    <RootNamespace>RHU_ADMIN_APPLICATION</RootNamespace>
+    <AssemblyName>RHU ADMIN APPLICATION</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>RHU ADMIN APPLICATION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>RHU ADMIN APPLICATION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>admin_person_user_man_2839.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8027075C5BB7C2F6D7A58F2E3D9C797947D1F0F7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>RHU ADMIN APPLICATION_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\MAC DEFENSE\RHU ADMIN\RHU ADMIN\My Project\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminFolder\Laboratory\LabaratoryFunctions.vb" />
+    <Compile Include="AdminFolder\Laboratory\LABORATORY_INFO.Designer.vb">
+      <DependentUpon>LABORATORY_INFO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Laboratory\LABORATORY_INFO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Laboratory\LabPanel.Designer.vb">
+      <DependentUpon>LabPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Laboratory\LabPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Laboratory\LabUserInfo.Designer.vb">
+      <DependentUpon>LabUserInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Laboratory\LabUserInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Laboratory\NEW LAB USER.Designer.vb">
+      <DependentUpon>NEW LAB USER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Laboratory\NEW LAB USER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Laboratory\NEW_LABARATORY.Designer.vb">
+      <DependentUpon>NEW_LABARATORY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Laboratory\NEW_LABARATORY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Laboratory\ReportsLab.Designer.vb">
+      <DependentUpon>ReportsLab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Laboratory\ReportsLab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Pharmacy\InfoPharmacist.Designer.vb">
+      <DependentUpon>InfoPharmacist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Pharmacy\InfoPharmacist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Pharmacy\Pharmacist.Designer.vb">
+      <DependentUpon>Pharmacist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Pharmacy\Pharmacist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Pharmacy\PharmacyPanel.Designer.vb">
+      <DependentUpon>PharmacyPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Pharmacy\PharmacyPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSpecs\DoctorPosition.Designer.vb">
+      <DependentUpon>DoctorPosition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSpecs\DoctorPosition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSpecs\MaritalStatus.Designer.vb">
+      <DependentUpon>MaritalStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSpecs\MaritalStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSpecs\NursePosition.Designer.vb">
+      <DependentUpon>NursePosition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSpecs\NursePosition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSpecs\Specialization.Designer.vb">
+      <DependentUpon>Specialization.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSpecs\Specialization.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogReg\AdminPanel.Designer.vb">
+      <DependentUpon>AdminPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogReg\AdminPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Clinic\ClinicFunction.vb" />
+    <Compile Include="AdminFolder\Clinic\NewClinic.Designer.vb">
+      <DependentUpon>NewClinic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Clinic\NewClinic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Doctor\DoctorFunctions.vb" />
+    <Compile Include="AdminFolder\Doctor\DoctorProfile.Designer.vb">
+      <DependentUpon>DoctorProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Doctor\DoctorProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Doctor\NewDoctor.Designer.vb">
+      <DependentUpon>NewDoctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Doctor\NewDoctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Logs\ControlLogs.vb" />
+    <Compile Include="AdminFolder\Logs\UserLogs.Designer.vb">
+      <DependentUpon>UserLogs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Logs\UserLogs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Nurse\NewNurse.Designer.vb">
+      <DependentUpon>NewNurse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Nurse\NewNurse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFolder\Nurse\NurseFunctions.vb" />
+    <Compile Include="AdminFolder\Nurse\NurseProfile.Designer.vb">
+      <DependentUpon>NurseProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFolder\Nurse\NurseProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogReg\AdminComponent.vb" />
+    <Compile Include="ClinicData\ClinicDataReports.Designer.vb">
+      <DependentUpon>ClinicDataReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicData\ClinicDataReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComponentModule.vb" />
+    <Compile Include="AdminLogReg\LoginPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogReg\LoginPage.Designer.vb">
+      <DependentUpon>LoginPage.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="AdminLogReg\RegisteAdmin.Designer.vb">
+      <DependentUpon>RegisteAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogReg\RegisteAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SQLconnection.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdminFolder\Laboratory\LABORATORY_INFO.resx">
+      <DependentUpon>LABORATORY_INFO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Laboratory\LabPanel.resx">
+      <DependentUpon>LabPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Laboratory\LabUserInfo.resx">
+      <DependentUpon>LabUserInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Laboratory\NEW LAB USER.resx">
+      <DependentUpon>NEW LAB USER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Laboratory\NEW_LABARATORY.resx">
+      <DependentUpon>NEW_LABARATORY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Laboratory\ReportsLab.resx">
+      <DependentUpon>ReportsLab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Pharmacy\InfoPharmacist.resx">
+      <DependentUpon>InfoPharmacist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Pharmacy\Pharmacist.resx">
+      <DependentUpon>Pharmacist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Pharmacy\PharmacyPanel.resx">
+      <DependentUpon>PharmacyPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSpecs\DoctorPosition.resx">
+      <DependentUpon>DoctorPosition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSpecs\MaritalStatus.resx">
+      <DependentUpon>MaritalStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSpecs\NursePosition.resx">
+      <DependentUpon>NursePosition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSpecs\Specialization.resx">
+      <DependentUpon>Specialization.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogReg\AdminPanel.resx">
+      <DependentUpon>AdminPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Clinic\NewClinic.resx">
+      <DependentUpon>NewClinic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Doctor\DoctorProfile.resx">
+      <DependentUpon>DoctorProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Doctor\NewDoctor.resx">
+      <DependentUpon>NewDoctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Logs\UserLogs.resx">
+      <DependentUpon>UserLogs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Nurse\NewNurse.resx">
+      <DependentUpon>NewNurse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFolder\Nurse\NurseProfile.resx">
+      <DependentUpon>NurseProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogReg\LoginPage.resx">
+      <DependentUpon>LoginPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicData\ClinicDataReports.resx">
+      <DependentUpon>ClinicDataReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogReg\RegisteAdmin.resx">
+      <DependentUpon>RegisteAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="RHU ADMIN APPLICATION_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin_person_user_man_2839.ico" />
+    <None Include="Resources\report%281%29.png" />
+    <None Include="Resources\dispensary.png" />
+    <None Include="Resources\pharmacy.png" />
+    <None Include="Resources\drugstore.png" />
+    <None Include="Resources\research.png" />
+    <None Include="Resources\report.png" />
+    <None Include="Resources\chemistry-class.png" />
+    <None Include="Resources\lab-technician.png" />
+    <None Include="Resources\laboratory%281%29.png" />
+    <None Include="Resources\18771.jpg" />
+    <None Include="Resources\doctor%282%29.png" />
+    <None Include="Resources\nurse%282%29.png" />
+    <None Include="Resources\relationship.png" />
+    <None Include="Resources\logoCYN.png" />
+    <None Include="Resources\CYNlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,61 @@
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Release\RHU PHARMACY.exe.config
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Release\RHU PHARMACY.exe
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Release\RHU PHARMACY.pdb
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Release\RHU PHARMACY.xml
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Release\Guna.UI2.dll
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\bin\Release\MySql.Data.dll
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.PRC_Login.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.INVENTORY.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.MedicineInfo.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.NewMedicine.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.DistributionMedicine.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.PharmacyPanel.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.Resources.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.ReportsMeds.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.CopyComplete
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.exe
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.xml
+C:\Users\Administrator\Desktop\FOR INSTALLATION\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.pdb
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\bin\Release\RHU PHARMACY.exe.config
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\bin\Release\RHU PHARMACY.exe
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\bin\Release\RHU PHARMACY.pdb
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\bin\Release\RHU PHARMACY.xml
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.PRC_Login.resources
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.INVENTORY.resources
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.MedicineInfo.resources
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.NewMedicine.resources
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.DistributionMedicine.resources
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.PharmacyPanel.resources
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.Resources.resources
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU_PHARMACY.ReportsMeds.resources
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.CopyComplete
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.exe
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.xml
+C:\Users\Administrator\Desktop\RHU PHARMACY\RHU PHARMACY\obj\Release\RHU PHARMACY.pdb
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\bin\Release\RHU PHARMACY.exe.config
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\bin\Release\RHU PHARMACY.exe
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\bin\Release\RHU PHARMACY.pdb
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\bin\Release\RHU PHARMACY.xml
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\bin\Release\Guna.UI2.dll
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\bin\Release\MySql.Data.dll
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU_PHARMACY.PRC_Login.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU_PHARMACY.INVENTORY.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU_PHARMACY.MedicineInfo.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU_PHARMACY.NewMedicine.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU_PHARMACY.DistributionMedicine.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU_PHARMACY.PharmacyPanel.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU_PHARMACY.Resources.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU_PHARMACY.ReportsMeds.resources
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU PHARMACY.vbproj.CopyComplete
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU PHARMACY.exe
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU PHARMACY.xml
+C:\Users\Administrator\Desktop\FOR INSTALLATION\PharmacyTB\RHU PHARMACY\obj\Release\RHU PHARMACY.pdb

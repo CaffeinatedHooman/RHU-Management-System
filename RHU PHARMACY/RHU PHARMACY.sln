@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RHU PHARMACY", "RHU PHARMACY\RHU PHARMACY.vbproj", "{7F8FB9B2-34A6-4B00-850F-4CF252D1D606}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PRC APP", "PRC APP\PRC APP.vdproj", "{8349A438-BB6A-41D9-A67B-59C5708F619B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F8FB9B2-34A6-4B00-850F-4CF252D1D606}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8FB9B2-34A6-4B00-850F-4CF252D1D606}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{7F8FB9B2-34A6-4B00-850F-4CF252D1D606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8FB9B2-34A6-4B00-850F-4CF252D1D606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8349A438-BB6A-41D9-A67B-59C5708F619B}.Debug|Any CPU.ActiveCfg = Release
+		{8349A438-BB6A-41D9-A67B-59C5708F619B}.Release|Any CPU.ActiveCfg = Release
+		{8349A438-BB6A-41D9-A67B-59C5708F619B}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {085F8C60-3805-4351-9321-E0B92B53024F}
+	EndGlobalSection
+EndGlobal
